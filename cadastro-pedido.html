@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Clientes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-pedido.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-clientes.html">CLIENTES</a>
+            <a href="lista-carros.html">CARROS</a>
+            <a href="lista-pedidos.html">PEDIDOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE CLIENTE</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="cliente">
+                Cliente
+                <br>
+                <input type="text" name="input-cliente" placeholder="Selecione o cliente" required>
+            </label>
+            <label for="carro">
+                Carro
+                <br>
+                <input type="text" name="input-carro" placeholder="Selecione o carro" required>
+            </label>
+            <label for="data do pedido">
+                Data do Pedido
+                <br>
+                <input type="number" name="input-datadopedido" placeholder="Insira a data do pedido" required>
+            </label>
+            <label for="valor total do pedido">
+                Valor Total do Pedido
+                <br>
+                <input type="number" name="input-valortotaldopedido" placeholder="Insira o valor total do pedido" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+
+</html>
